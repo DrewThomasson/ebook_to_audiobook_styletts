@@ -15,6 +15,10 @@ https://github.com/DrewThomasson/ebook2audiobookSTYLETTS2/assets/126999465/b55f9
 ### outputs as a m4b with all book metadata and chapters, example output file in an audiobook player app
 ![Example_of_output_in_audiobook_program](https://github.com/DrewThomasson/VoxNovel/blob/dc5197dff97252fa44c391dc0596902d71278a88/readme_files/example_in_app.jpeg)
 
+## Gradio Web GUI
+<img width="1075" alt="Screenshot 2024-08-27 at 7 23 48 PM" src="https://github.com/user-attachments/assets/e57e012f-8533-4ca2-9463-5cd6083531c9">
+<img width="1077" alt="Screenshot 2024-08-27 at 7 24 05 PM" src="https://github.com/user-attachments/assets/7397dbfe-993f-4202-b394-1a87cccc74b3">
+
 
 ## Features
 
@@ -63,5 +67,4 @@ python styletts_to_ebook.py <path_to_ebook_file> <path_to_voice_file>
 Replace <path_to_ebook_file> with the path to your eBook file.
 
 Replace <path_to_voice_file> with the path to the voice file for cloning.
-
 
