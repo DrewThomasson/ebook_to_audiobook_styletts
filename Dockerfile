@@ -3,11 +3,11 @@ FROM python:3.10-slim
 
 # Install system dependencies for Calibre and ffmpeg
 RUN apt-get update && \
-    apt-get install -y calibre ffmpeg git nano wget unzip && \
+    apt-get install -y calibre ffmpeg git nano wget unzip git && \
     rm -rf /var/lib/apt/lists/*
 
 # Install Python packages
-RUN pip install --no-cache-dir styletts2 pydub nltk beautifulsoup4 ebooklib tqdm spacy gradio git
+RUN pip install --no-cache-dir styletts2 pydub nltk beautifulsoup4 ebooklib tqdm spacy gradio
 
 # Set the working directory
 WORKDIR /app
