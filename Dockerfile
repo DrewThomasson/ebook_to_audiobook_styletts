@@ -37,6 +37,6 @@ RUN echo "Replacing the nltk folder with the nltk folder backup I pulled from a 
 RUN python ebook2audiobookSTYLETTS2/styletts2_test.py
 
 # Default command
-CMD ["python", "ebook2audiobookSTYLETTS2/gradio_gui.py"]
+CMD ["python", "ebook2audiobookSTYLETTS2/Gradio_GUI.py"]
 #To run this docker on your computer run docker run -it athomasson2/ebook2audiobookstyletts2
 
