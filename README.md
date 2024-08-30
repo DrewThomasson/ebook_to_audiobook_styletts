@@ -27,6 +27,24 @@ https://github.com/DrewThomasson/ebook2audiobookSTYLETTS2/assets/126999465/b55f9
 - Utilizes `StyleTTS2` for converting each chapter into an audio file.
 - Offers an optional voice cloning feature when provided with a voice file.
 
+
+## 🚀  Docker Quick Start 🐳
+
+To quickly get started with this eBook to Audiobook converter, simply run the following Docker command:
+
+To run the Docker container and start the Gradio interface, use the following command:
+
+To run with a gpu
+```powershell
+docker run -it --rm --gpus all -p 7860:7860 athomasson2/ebook2audiobookstyletts2:latest
+```
+
+To run without a gpu
+```powershell
+docker run -it --rm -p 7860:7860 athomasson2/ebook2audiobookstyletts2:latest
+```
+This will start the Gradio interface on port `7860`. You can access it by navigating to `http://localhost:7860` in your web browser.
+
 ## Requirements
 
 - Python 3.10
